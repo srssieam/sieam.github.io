@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(149, 219, 196);
+    font-family: 'Andika', sans-serif;
+}
+.container {
+    max-width: 1000px;
+    background-color: rgb(135, 207, 236);
+    margin: 0 auto;
+    padding: 8px;
+}
+.profile-img {
+    height: 200px;
+    width: 95px;
+    border: 2px solid green;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio {
+    float: left;
+    padding: 70px 30px;
+}
+h1,h2,h3,h4,h5,h6 {
+    color:darkgreen;
+
+}
+.header-contact {
+    float: right;
+    padding: 70px 50px;
+}
+.header-contact a {
+    text-decoration: none;
+    color: darkmagenta;
+    font-weight: bold;
+
+}
+.header-contact a:hover {
+    color:rgb(92, 23, 221);
+    text-decoration: underline;
+}
+.div-clear {
+    clear: both;
+}
+hr {
+    border: 2px solid rgb(121, 25, 25);
+    width: 100%;
+    margin:20px auto;
+ 
+}
+.left-div {
+    width: 30%;
+    float: left;
+}
+.left-div h3{
+    margin-left: 20px;
+}
+.right-div {
+    width: 70%;
+    float: left;
+}
+.common-hr {
+    width: 100%;
+    border: 1px solid rgb(163, 16, 16);
+    margin: 20px auto;
+}
+ul {
+    margin-left: 20px;
+}
+.edu-left {
+    float:left;
+    width:45%;
+}
+.edu-rigth {
+    float:right;
+    width:45%;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    text-decoration: none;
+    margin: 20px;
+    color:aqua;
+}
+footer a:hover {
+    color: white;
+}
